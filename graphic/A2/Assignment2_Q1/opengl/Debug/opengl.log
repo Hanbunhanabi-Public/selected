@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Assignment1.vcxproj, opengl.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Shape.cpp
+C:\Users\sheph\OneDrive\Doc\University\CS_&_PH\COMP_4490\Assignment\Assignment2_root\release\Assignment2_Q1\src\Shape.cpp(122,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\sheph\OneDrive\Doc\University\CS_&_PH\COMP_4490\Assignment\Assignment2_root\release\Assignment2_Q1\src\Shape.cpp(179,20): warning C4018: “<”: 有符号/无符号不匹配
+  opengl.vcxproj -> C:\Users\sheph\OneDrive\Doc\University\CS_&_PH\COMP_4490\Assignment\Assignment2_root\release\Assignment2_Q1\\build\Assignment2_Q1.exe

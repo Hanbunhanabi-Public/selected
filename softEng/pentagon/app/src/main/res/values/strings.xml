@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chefs_Collection</string>
+    <string name="search_hint">Find a recipe ~</string>
+    <string name="search_action">Find a recipe ~ </string>>
+</resources>

@@ -1,0 +1,5 @@
+node_modules/
+backend/.env
+.idea/
+.DS_Store
+package-lock.*

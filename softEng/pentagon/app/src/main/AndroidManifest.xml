@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comp3350.chefs_collection">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cc_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/cc_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Presentation.SearchResults"></activity>
+        <activity android:name=".Presentation.SearchByName" />
+        <activity android:name=".Presentation.BrowseTag" />
+        <activity android:name=".Presentation.FileExploreActivity" />
+        <activity android:name=".Presentation.FileSaveActivity" />
+        <activity android:name=".Presentation.Add2Sub" />
+        <activity android:name=".Presentation.AddRecipe" />
+        <activity android:name=".Presentation.AddSublist" />
+        <activity android:name=".Presentation.ViewSublistActivity" />
+        <activity android:name=".Presentation.BrowseSublistActivity" />
+        <activity android:name=".Presentation.BrowseHistory" />
+        <activity android:name=".Presentation.ViewRecipeActivity" />
+        <activity android:name=".Presentation.BrowseAll" />
+        <activity android:name=".Presentation.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

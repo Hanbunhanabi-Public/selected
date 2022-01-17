@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Assignment1.vcxproj, opengl.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Sphere.cpp
+C:\Users\sheph\OneDrive\Doc\University\CS_&_PH\COMP_4490\Assignment\Assignment3_root\Assignment3\src\Sphere.cpp(9,7): warning C4102: “Shape”: 未引用的标签
+  opengl.vcxproj -> C:\Users\sheph\OneDrive\Doc\University\CS_&_PH\COMP_4490\Assignment\Assignment3_root\Assignment3\\build\Assignment2_Q2.exe

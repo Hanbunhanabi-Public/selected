@@ -1,0 +1,38 @@
+{
+  "name": "project_2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "expo-gl": "^10.1.0",
+    "gl-mat4": "^1.2.0",
+    "gl-matrix": "^3.3.0",
+    "gl-react": "^5.0.0",
+    "gl-react-native": "^5.0.0",
+    "jpeg-js": "^0.4.3",
+    "mozjpeg-js": "^3.3.1",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-unimodules": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.10",
+    "@babel/runtime": "7.13.10",
+    "@react-native-community/eslint-config": "1.1.0",
+    "babel-jest": "25.5.1",
+    "eslint": "6.8.0",
+    "jest": "25.5.4",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react-native-fs": "^2.16.6",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "airbnb-base", "prettier"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "plugins": ["prettier", "chai-friendly"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-param-reassign": 0,
+    "no-unused-expressions": 0,
+    "chai-friendly/no-unused-expressions": 2,
+    "no-underscore-dangle": "off"
+  },
+  "settings": {}
+}
